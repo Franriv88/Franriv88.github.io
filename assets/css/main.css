@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #14213D; /*COLOR DE FONDO DE LA pg PROYECTOS*/
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3236,31 +3236,31 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #ff0000; /* FOOTER del genric.html */
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #003a61; /* fondo del indes.html - CONTACTO */
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #355070; /* FOOTER del index.html */
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #F39C12; /* fondo de sección lateral de muestra de proyectos en index.html */
 		}
 
 		.wrapper.style2-alt {
-			background-color: #02045e;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style3 {
-			background-color: #02045e;
+			background-color: #3a0ca3; /* fondo de sección Lengaujes de Programación en index.html */
 		}
 
 		.wrapper.style3-alt {
-			background-color: #3d6d95;
+			background-color: #ffffff;
 		}
 
 		.wrapper.fullscreen {
@@ -3514,6 +3514,7 @@ input, select, textarea {
 	#footer > .inner .menu {
 		font-size: 0.8em;
 		color: rgba(255, 255, 255, 0.15);
+		
 	}
 
 	#header + #wrapper + #footer > .inner {
@@ -3874,7 +3875,7 @@ input, select, textarea {
 	#intro {
 		background-attachment: fixed;
 		*background-image: url("images/smo.svg");
-		background-image: url("/images/smoke.jpg");
+		background-image: url("/images/smoke.jpg"); /*FONDO DE HOLA! SOY FRANCISCO */
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
