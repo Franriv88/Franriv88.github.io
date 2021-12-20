@@ -2808,9 +2808,8 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 40%;
-		
 	}
-
+	
 		ul.icons li {
 			display: inline-block;
 			padding: 0 0.75em 0 0;
@@ -2827,6 +2826,28 @@ input, select, textarea {
 				ul.icons li > a .label, ul.icons li > span .label {
 					display: none;
 				}
+
+				ul.icons-index {
+					cursor: default;
+					list-style: none;
+					padding-left: 0;
+				}	
+					ul.icons-index li {
+						display: inline-block;
+						padding: 0 0.75em 0 0;
+					}
+			
+						ul.icons-index li:last-child {
+							padding-right: 0;
+						}
+			
+						ul.icons-index li > a, ul.icons-index li > span {
+							border: 0;
+						}
+			
+							ul.icons-index li > a .label, ul.icons-index li > span .label {
+								display: none;
+							}
 
 /* Menu */
 
