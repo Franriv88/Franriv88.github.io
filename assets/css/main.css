@@ -2807,7 +2807,8 @@ input, select, textarea {
 	ul.icons {
 		cursor: default;
 		list-style: none;
-		padding-left: 0;
+		padding-left: 40%;
+		
 	}
 
 		ul.icons li {
@@ -3236,7 +3237,8 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #ff0000; /* FOOTER del genric.html */
+			*background-color: #ff0000; /* FOOTER del genric.html */
+			background-image: url("/images/smoke.jpg");
 		}
 
 		.wrapper.style1 {
