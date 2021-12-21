@@ -3899,7 +3899,7 @@ input, select, textarea {
 		background-attachment: fixed;
 		*background-image: url("images/smo.svg");
 		background-image: url("/images/smoke.jpg"); /*FONDO DE HOLA! SOY FRANCISCO */
-		background-position: top right;
+		*background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 	}
